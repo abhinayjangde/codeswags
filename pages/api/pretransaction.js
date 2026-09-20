@@ -1,5 +1,5 @@
 const https = require('https');
-const {generateSignature} = require('PaytmChecksum');
+const {generateSignature} = require('paytmchecksum');
 
 // Ensure that required environment variables are defined
 if (!process.env.NEXT_PUBLIC_PAYTM_MID || !process.env.NEXT_PUBLIC_HOST || !process.env.PAYTM_MKEY) {
